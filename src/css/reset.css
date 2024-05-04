@@ -1,0 +1,16 @@
+/* seletores são os meios de estilizar no CSS ".main" pode estilizar uma classe "#main" estiliza um ID 
+o "*" estiliza todas as tags do HTML */
+*{
+   margin: 0; /*espassamento externo*/
+   padding: 0;/*espassamento interno */
+   box-sizing: border-box; /*facilita mais trabalhar com alturas e laarguras */
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
